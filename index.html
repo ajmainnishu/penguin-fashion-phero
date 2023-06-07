@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- website title -->
+    <title>Penguin Fashion</title>
+
+    <!-- tailwind cdn link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- tailwind custom link -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    
+    <!-- header section start -->
+    <header class="bg-slate-200">
+
+      <!-- nav section start -->
+      <nav class="container mx-auto py-5">
+        <div class="flex md:flex-row flex-col justify-between items-center">
+          <div>
+            <img class="w-64" src="./images/logo.png" alt="">
+          </div>
+          <div>
+            <ul class="flex gap-10 md:py-0 py-5">
+              <li class="">
+                <a class="text-xs" href="#">Home</a>
+              </li>
+              <li class="">
+                <a class="text-xs" href="#">Product</a>
+              </li>
+              <li class="">
+                <a class="text-xs" href="#">About Us</a>
+              </li>
+              <li class="">
+                <a class="text-xs" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- nav section end -->
+
+    </header>
+    <!-- header section end -->
+
+</body>
+</html>
